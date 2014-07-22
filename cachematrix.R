@@ -9,8 +9,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 	## Set the matrix
 	set <- function(matrix) {
-			x <<- matrix
-			inv <<- NULL
+		x <<- matrix
+		inv <<- NULL
 	}
 
 	## Get the matrix
@@ -37,7 +37,7 @@ cacheSolve <- function(x, ...) {
 
 	## Eeturn the inverse
 	if( !is.null(x) ) {
-			return(x)
+		return(x)
 	}
 
 	## Get the matrix
@@ -51,5 +51,5 @@ cacheSolve <- function(x, ...) {
 	x$setInverse(x)
 
 	## Return the matrix
-	x       ## Return a matrix that is the inverse of 'x'
+	x
 }
