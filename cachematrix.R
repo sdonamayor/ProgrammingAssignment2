@@ -1,6 +1,6 @@
 ###CACHING THE INVERSE OF A MATRIX###
 
-## 1. Creates a special matrix object that can cache its inverse.## Write a short comment describing this function
+## 1. Creates a special matrix object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -29,8 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## 2. Computes the inverse of the special matrix returned by "makeCacheMatrix". If the inverse has already been calculated (and the matrix has not changed), then the "cacheSolve" should retrieve the inverse from the cache.## Write a short comment describing this function
-
+## 2. Computes the inverse of the special matrix returned by "makeCacheMatrix". If the inverse has already been calculated (and the matrix has not changed), then the "cacheSolve" should retrieve the inverse from the cache.
 cacheSolve <- function(x, ...) {
  
 	## Return x's inverse matrix
